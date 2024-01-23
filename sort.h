@@ -28,5 +28,6 @@ void insertion_sort_list(listint_t **list);
 void swp_nd(listint_t **x, listint_t **y, listint_t *z);
 void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
-void swp(int *x, int *y);
+void shell_sort(int *array, size_t size);
+
 #endif /* SORT_H */

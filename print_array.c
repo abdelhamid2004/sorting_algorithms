@@ -9,10 +9,11 @@
 void print_array(const int *array, size_t size)
 {
 	int i, sz = size;
-	for(i = 0; i < sz; i++)
+
+	for (i = 0; i < sz; i++)
 	{
 		printf("%d", array[i]);
-		if(i < sz - 1)
+		if (i < sz - 1)
 		{
 			printf(", ");
 		}

@@ -18,8 +18,10 @@ void swp(int *x, int *y)
 /**
  * parti - To divide the array into partions
  * @array: The array to divide
+ * @size: The size of the array
  * @l: The left side
  * @r: The right side
+ * Return: Return the pevoit value
 */
 int parti(int *array, size_t size, int l, int r)
 {
